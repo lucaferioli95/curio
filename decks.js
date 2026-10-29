@@ -1119,17 +1119,17 @@ window.DECKS = [
      "min": 200,
      "max": 1000,
      "unit": " ppm",
-     "answer": 425,
-     "why": "It is now above 420 ppm, an increase of about 50%. Burning coal, oil and gas, and clearing forests, are the main causes."
+     "answer": 430,
+     "why": "It is now about 430 ppm (the Met Office forecast for 2026 is 429), more than 50% above pre-industrial. Burning coal, oil and gas, and clearing forests, are the main causes."
     },
     {
      "t": "fact",
      "icon": "🌡️",
      "kicker": "The result so far",
-     "title": "About 1.1°C of warming",
-     "text": "The average global surface temperature is already roughly 1.1°C higher than in the late 1800s. A small average change shifts heatwaves, rainfall and sea level.",
-     "stat": "1.1°C",
-     "statLabel": "warmer than pre-industrial"
+     "title": "About 1.4°C of warming",
+     "text": "The WMO puts 2025 at about 1.44°C above the 1850 to 1900 average, and the 2023 to 2025 average at about 1.48°C. A small average change shifts heatwaves, rainfall and sea level.",
+     "stat": "~1.4°C",
+     "statLabel": "warmer than 1850-1900, in 2025"
     },
     {
      "t": "quiz",
@@ -1187,9 +1187,9 @@ window.DECKS = [
      "icon": "🏗️",
      "kicker": "Concrete",
      "title": "A material that has lasted two thousand years",
-     "text": "Romans mixed lime and volcanic ash into a strong concrete, even one that set underwater. The Pantheon’s dome, finished around 126 CE, is still the largest unreinforced concrete dome in the world.",
+     "text": "Romans mixed lime and volcanic ash into a strong concrete, even one that set underwater. The Pantheon’s dome, finished around 125 CE, is still the largest unreinforced concrete dome in the world.",
      "stat": "43 m",
-     "statLabel": "width of the Pantheon dome"
+     "statLabel": "span of the Pantheon dome"
     },
     {
      "t": "est",
@@ -1199,7 +1199,7 @@ window.DECKS = [
      "log": true,
      "unit": " m",
      "answer": 43,
-     "why": "About 43 metres, nearly the same as the building’s height, so a sphere of that size would fit inside."
+     "why": "About 43 metres across, finished under Emperor Hadrian and still standing, with no steel reinforcement."
     },
     {
      "t": "quiz",
@@ -1226,8 +1226,8 @@ window.DECKS = [
      "t": "fact",
      "icon": "🔺",
      "kicker": "Khufu’s tomb",
-     "title": "Built around 2560 BCE",
-     "text": "The Great Pyramid at Giza was built for the pharaoh Khufu over roughly 20 years. It was the tallest human-made structure on Earth for about 3,800 years, until Lincoln Cathedral in England was completed in 1311.",
+     "title": "Built around 2600 BCE",
+     "text": "The Great Pyramid at Giza was built for the pharaoh Khufu in the Fourth Dynasty. Ancient writers said 20 years, and modern estimates are around 20 to 27. It was the tallest human-made structure on Earth for more than 3,700 years.",
      "stat": "~4,500",
      "statLabel": "years old"
     },
@@ -1239,26 +1239,26 @@ window.DECKS = [
      "log": true,
      "unit": "",
      "answer": 2300000,
-     "why": "About 2.3 million blocks, mostly limestone. To finish in 20 years, this means placing a block every few minutes."
+     "why": "About 2.3 million blocks, mostly limestone. Finishing in roughly 20 to 27 years meant placing hundreds of blocks every day."
     },
     {
      "t": "quiz",
      "q": "Who built the pyramids?",
      "opts": [
-      "Slaves forced by the pharaoh",
-      "Skilled paid and fed workers, with seasonal labour",
+      "Slaves, as the ancient Greeks believed",
+      "Organised crews of conscripted labourers, housed and fed nearby",
       "Aliens",
       "Foreign armies"
      ],
      "a": 1,
-     "why": "Excavations of workers’ villages near Giza show bakeries, breweries and medical care. The evidence points to organised, fed and housed labourers."
+     "why": "Workers’ camps near Giza and gang names painted on the stones point to organised labour crews, not slaves. One study estimated about 13,000 workers on average, with a peak around 40,000."
     },
     {
      "t": "fact",
      "icon": "📐",
      "kicker": "Precision",
      "title": "Almost perfectly aligned",
-     "text": "The base is about 230 metres on each side, and its sides are aligned to the compass points with an error of a fraction of a degree. Its original height was about 146.6 metres.",
+     "text": "The base is about 230 metres on each side, and its sides line up with true north, south, east and west to within about a tenth of a degree. Its original height was about 146.6 metres.",
      "stat": "146.6 m",
      "statLabel": "original height"
     },
@@ -1267,7 +1267,7 @@ window.DECKS = [
      "icon": "⏳",
      "kicker": "Time is strange",
      "title": "Cleopatra lived closer to us than to the pyramid",
-     "text": "Cleopatra died in 30 BCE, about 2,500 years after the pyramid was built. That is more than the roughly 2,000 years between her death and the Moon landing in 1969.",
+     "text": "Cleopatra died in 30 BCE, roughly 2,500 years after the pyramid was built. That is more than the roughly 2,000 years between her death and the Moon landing in 1969.",
      "stat": "2,500 vs 2,000",
      "statLabel": "years: pyramid to Cleopatra vs Cleopatra to us"
     },
@@ -1281,7 +1281,7 @@ window.DECKS = [
       "Its measurements were wrong"
      ],
      "a": 1,
-     "why": "Polished limestone casing was taken for other buildings, and the top stones are lost. It stands about 138 metres today."
+     "why": "Polished limestone casing stones were removed over the centuries, and the summit has lost about 8 metres. It stands about 138.5 metres today."
     }
    ]
   },
@@ -1296,9 +1296,9 @@ window.DECKS = [
      "t": "fact",
      "icon": "🛰️",
      "kicker": "The setup",
-     "title": "Around 30 satellites, 20,000 km up",
+     "title": "More than 30 satellites, 20,000 km up",
      "text": "The GPS satellites orbit at about 20,200 km and each one constantly broadcasts its position and the exact time. Your phone only listens. It sends nothing to the satellites.",
-     "stat": "~31",
+     "stat": "30+",
      "statLabel": "working GPS satellites"
     },
     {
@@ -1407,8 +1407,8 @@ window.DECKS = [
      "icon": "🔬",
      "kicker": "How small",
      "title": "Features measured in nanometres",
-     "text": "A human hair is about 70,000 nanometres wide. The smallest features on advanced chips are a few nanometres across, only a few dozen atoms.",
-     "stat": "~70,000 nm",
+     "text": "A human hair is roughly 70,000 to 100,000 nanometres wide. The smallest features on advanced chips are a few nanometres across, only a few dozen atoms.",
+     "stat": "~80,000 nm",
      "statLabel": "width of a human hair"
     },
     {
@@ -1491,6 +1491,497 @@ window.DECKS = [
      "text": "Turning percentages into counts of people, such as 10 in 1,000, makes many of these puzzles easy. It is a good habit with medical, financial and news statistics.",
      "stat": "Counts",
      "statLabel": "beat percentages for intuition"
+    }
+   ]
+  },
+  /* ---- added in 1.3.0 ---- */
+  {
+   "id": "tectonics",
+   "area": "science",
+   "emoji": "🌋",
+   "title": "Moving continents",
+   "blurb": "The ground under you is on the move.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🧩",
+     "kicker": "A puzzle",
+     "title": "Wegener noticed the continents fit",
+     "text": "In 1912 the German scientist Alfred Wegener proposed that the continents were once joined in one supercontinent, which he named Pangaea, meaning all land. He pointed to matching fossils, rock layers and mountain ranges on opposite sides of oceans.",
+     "stat": "1912",
+     "statLabel": "Wegener proposes continental drift"
+    },
+    {
+     "t": "quiz",
+     "q": "Why did most scientists reject Wegener’s idea at first?",
+     "opts": [
+      "He had no evidence at all",
+      "He could not explain what force could move continents",
+      "It had already been disproved",
+      "He was not a scientist"
+     ],
+     "a": 1,
+     "why": "The evidence was real, but there was no known mechanism. Only after the 1950s and 1960s, with seafloor mapping, did it come together as plate tectonics. Wegener died in 1930, before then."
+    },
+    {
+     "t": "fact",
+     "icon": "🔪",
+     "kicker": "The shell",
+     "title": "The surface is broken into plates",
+     "text": "Earth’s rigid outer layer is split into a handful of huge plates and several smaller ones. They ride slowly on the softer rock beneath, and move apart, together or past each other at their edges.",
+     "stat": "Plates",
+     "statLabel": "rigid pieces of Earth’s shell"
+    },
+    {
+     "t": "est",
+     "q": "The Pacific Plate is among the fastest. About how fast does it move, in centimetres per year?",
+     "min": 0.1,
+     "max": 100,
+     "log": true,
+     "unit": " cm/yr",
+     "answer": 10,
+     "why": "Over 10 cm a year in some places. Others, such as the North American Plate, move only a few centimetres a year or less."
+    },
+    {
+     "t": "fact",
+     "icon": "🏔️",
+     "kicker": "Collision",
+     "title": "The Himalayas are still rising",
+     "text": "India has been pushing into Asia for tens of millions of years, and that collision is what raised the Himalayas. Most earthquakes and volcanoes sit along plate edges, such as the Pacific Ring of Fire.",
+     "stat": "Edges",
+     "statLabel": "where earthquakes and volcanoes cluster"
+    },
+    {
+     "t": "quiz",
+     "q": "Where do most earthquakes and volcanoes happen?",
+     "opts": [
+      "Randomly across the globe",
+      "Mainly near the edges of plates",
+      "Only in the Pacific Ocean",
+      "Only near the equator"
+     ],
+     "a": 1,
+     "why": "Plate edges are where the plates grind, collide or pull apart. The Ring of Fire around the Pacific is the best-known example."
+    }
+   ]
+  },
+  {
+   "id": "blackdeath",
+   "area": "history",
+   "emoji": "🐀",
+   "title": "The Black Death",
+   "blurb": "The plague that reshaped Europe.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "⚰️",
+     "kicker": "Scale",
+     "title": "Between a third and a half of Europe died",
+     "text": "The plague swept Europe from 1347 to 1351. Modern estimates put deaths at roughly a third to a half of the population, and some historians argue for higher. It was caused by the bacterium Yersinia pestis.",
+     "stat": "1347-51",
+     "statLabel": "the main wave in Europe"
+    },
+    {
+     "t": "quiz",
+     "q": "What is the Black Death thought to have been caused by?",
+     "opts": [
+      "A virus carried by birds",
+      "The bacterium Yersinia pestis, spread mostly by fleas",
+      "Contaminated wells",
+      "A fungus in grain"
+     ],
+     "a": 1,
+     "why": "Fleas on rats and other animals carried the bacterium to people. It is the same germ that causes plague today, which can now be treated with antibiotics."
+    },
+    {
+     "t": "fact",
+     "icon": "💰",
+     "kicker": "Aftermath",
+     "title": "Workers suddenly became scarce",
+     "text": "With so many dead, labour was in short supply and wages rose. English farm wages roughly doubled between 1350 and 1450. Landowners tried to cap them: England’s Statute of Labourers, 1351, was an attempt to hold wages down.",
+     "stat": "~2x",
+     "statLabel": "English farm wages, 1350 to 1450"
+    },
+    {
+     "t": "quiz",
+     "q": "What did the shortage of workers do?",
+     "opts": [
+      "Lowered wages",
+      "Raised wages and weakened serfdom in Western Europe",
+      "Had no effect on the economy",
+      "Ended farming in England"
+     ],
+     "a": 1,
+     "why": "Survivors could demand more pay and move for better terms. Serfdom declined in Western Europe, though in Eastern Europe landlords tightened control."
+    },
+    {
+     "t": "fact",
+     "icon": "✊",
+     "kicker": "Tensions",
+     "title": "Anger over wage laws fed the 1381 Peasants’ Revolt",
+     "text": "Many historians link the revolt in England to resentment of the wage-capping laws and other taxes. It was crushed, but the old feudal order kept eroding.",
+     "stat": "1381",
+     "statLabel": "the English Peasants’ Revolt"
+    },
+    {
+     "t": "fact",
+     "icon": "⏳",
+     "kicker": "Slow recovery",
+     "title": "Europe’s population stayed low for generations",
+     "text": "Plague returned in later waves, so population took a long time to recover, in some regions well over a century. More than 1,300 English villages were deserted between 1350 and 1500.",
+     "stat": "1,300+",
+     "statLabel": "English villages deserted"
+    }
+   ]
+  },
+  {
+   "id": "athens",
+   "area": "history",
+   "emoji": "🗳️",
+   "title": "Athenian democracy",
+   "blurb": "The first big experiment in rule by the people.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🏛️",
+     "kicker": "Origins",
+     "title": "Cleisthenes redesigned Athens",
+     "text": "In the late 500s BCE, after a period of tyranny, the reformer Cleisthenes reorganised Athens into ten tribes made of local districts called demes. The new structure weakened the grip of powerful families and put citizens at the centre.",
+     "stat": "Demos",
+     "statLabel": "Greek for the people"
+    },
+    {
+     "t": "quiz",
+     "q": "Who could take part in Athenian democracy?",
+     "opts": [
+      "Everyone living in Athens",
+      "Adult male citizens only",
+      "Only landowners",
+      "Only soldiers"
+     ],
+     "a": 1,
+     "why": "Women, slaves and foreign residents were excluded. The citizen body was perhaps 20,000 to 30,000 men, a small fraction of the population."
+    },
+    {
+     "t": "fact",
+     "icon": "🎲",
+     "kicker": "Chosen by lot",
+     "title": "Many officials were picked by random draw",
+     "text": "A Council of 500 prepared the business for the Assembly, with 50 members drawn by lot from each tribe. Juries were also chosen by lot from a panel of 6,000 citizens. Random selection was seen as fairer than elections, which favoured the rich and well known.",
+     "stat": "500",
+     "statLabel": "citizens on the Council"
+    },
+    {
+     "t": "fact",
+     "icon": "🏺",
+     "kicker": "Ostracism",
+     "title": "Citizens could vote someone into exile",
+     "text": "Once a year the Assembly could vote on whether to hold an ostracism. Citizens scratched a name on a pottery shard, and a person who got at least 6,000 votes was exiled for ten years.",
+     "stat": "6,000",
+     "statLabel": "votes needed to ostracise"
+    },
+    {
+     "t": "quiz",
+     "q": "What was ostracism for?",
+     "opts": [
+      "Choosing the best general",
+      "Sending a too-powerful or dangerous person away for ten years, without a trial",
+      "Collecting taxes",
+      "Punishing murder"
+     ],
+     "a": 1,
+     "why": "It was a way of removing someone seen as a threat to the democracy, without a trial. The word ostracism comes from the shards, called ostraka."
+    },
+    {
+     "t": "fact",
+     "icon": "🌍",
+     "kicker": "Legacy",
+     "title": "The word democracy is Greek",
+     "text": "Demos means people and kratos means power. Modern democracies mostly use elected representatives, not direct votes by every citizen, and include everyone adult.",
+     "stat": "2,500",
+     "statLabel": "years since Cleisthenes, roughly"
+    }
+   ]
+  },
+  {
+   "id": "solar",
+   "area": "science",
+   "emoji": "🪐",
+   "title": "Our solar system",
+   "blurb": "Some surprising facts about our neighbourhood.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "☀️",
+     "kicker": "The big one",
+     "title": "The Sun holds almost everything",
+     "text": "The Sun contains about 99.85% of all the matter in the solar system. All the planets together make up only around 0.135%.",
+     "stat": "99.85%",
+     "statLabel": "of the solar system’s mass is the Sun"
+    },
+    {
+     "t": "fact",
+     "icon": "🟠",
+     "kicker": "The giant",
+     "title": "Jupiter outweighs all the other planets combined",
+     "text": "Jupiter has more than twice the mass of every other planet put together. It is a ball of mostly hydrogen and helium, with no solid surface.",
+     "stat": "2x+",
+     "statLabel": "Jupiter’s mass vs all other planets combined"
+    },
+    {
+     "t": "quiz",
+     "q": "Which planet has a day longer than its year?",
+     "opts": [
+      "Mars",
+      "Venus",
+      "Mercury",
+      "Jupiter"
+     ],
+     "a": 1,
+     "why": "Venus spins so slowly that one rotation takes about 243 Earth days, while its orbit takes about 225. It also spins backwards compared with most planets."
+    },
+    {
+     "t": "fact",
+     "icon": "🔭",
+     "kicker": "Found by maths",
+     "title": "Neptune was predicted before it was seen",
+     "text": "Astronomers noticed that Uranus’s orbit was being tugged by something unseen. Calculations by Urbain Le Verrier pointed to where to look, and in 1846 Neptune was found within about a degree of that spot.",
+     "stat": "1846",
+     "statLabel": "Neptune discovered"
+    },
+    {
+     "t": "est",
+     "q": "Light takes about 8 minutes from the Sun to Earth. About how many hours does it take to reach Neptune?",
+     "min": 0.1,
+     "max": 100,
+     "log": true,
+     "unit": " hours",
+     "answer": 4.2,
+     "why": "Neptune is about 30 times farther from the Sun than Earth is, so sunlight needs roughly 4 hours and 10 minutes to get there."
+    },
+    {
+     "t": "quiz",
+     "q": "Saturn’s average density is less than water. What does that mean?",
+     "opts": [
+      "It would float in a big enough ocean",
+      "It is made of ice",
+      "It is hollow",
+      "It has no mass"
+     ],
+     "a": 0,
+     "why": "Saturn is mostly hydrogen and helium. Its average density is about 0.7 g/cm³, compared with water’s 1."
+    }
+   ]
+  },
+  {
+   "id": "batteries",
+   "area": "tech",
+   "emoji": "🔋",
+   "title": "How batteries work",
+   "blurb": "Why your phone can hold a charge.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "⚡",
+     "kicker": "The basics",
+     "title": "A battery turns chemistry into electricity",
+     "text": "Chemical reactions push electrons from one end, the anode, to the other, the cathode, through your device. Inside the battery, charged atoms called ions move across a liquid or gel to balance the flow.",
+     "stat": "2 electrodes",
+     "statLabel": "plus something for ions to travel through"
+    },
+    {
+     "t": "quiz",
+     "q": "What happens when you charge a lithium-ion battery?",
+     "opts": [
+      "Lithium is burned",
+      "Lithium ions are pushed back to the anode",
+      "The battery is refilled with fluid",
+      "Electrons are stored as is"
+     ],
+     "a": 1,
+     "why": "Charging forces the ions back across to the anode, where they wait. When the battery discharges, they travel back again, and the electrons do their work in the circuit."
+    },
+    {
+     "t": "fact",
+     "icon": "🏆",
+     "kicker": "Who made it work",
+     "title": "Three scientists won the 2019 Nobel Prize",
+     "text": "M. Stanley Whittingham built an early lithium battery, but it could explode. John Goodenough used cobalt oxide to double the voltage to about four volts. Akira Yoshino replaced the metallic lithium with a safer carbon material, producing a safe, rechargeable battery.",
+     "stat": "2019",
+     "statLabel": "Chemistry Nobel for lithium-ion"
+    },
+    {
+     "t": "fact",
+     "icon": "🛒",
+     "kicker": "To the shops",
+     "title": "The first one went on sale in 1991",
+     "text": "A Japanese company began selling the first commercial lithium-ion battery in 1991. It is now in phones, laptops and electric cars.",
+     "stat": "1991",
+     "statLabel": "first commercial version"
+    },
+    {
+     "t": "quiz",
+     "q": "Why is lithium used?",
+     "opts": [
+      "It is the lightest metal and gives up electrons easily",
+      "It is the cheapest metal",
+      "It is the strongest metal",
+      "It does not react with anything"
+     ],
+     "a": 0,
+     "why": "Lithium is the lightest metal, so batteries can store a lot of energy for their weight. That is why it suits portable devices."
+    },
+    {
+     "t": "quiz",
+     "q": "What is risky about lithium-ion batteries?",
+     "opts": [
+      "Nothing at all",
+      "They can overheat or catch fire if damaged or badly made",
+      "They explode when cold",
+      "They contain mercury"
+     ],
+     "a": 1,
+     "why": "The liquid inside is flammable, and damage can short the cell. Built-in safety circuits and good design make problems rare, but it is why damaged batteries should be handled carefully."
+    }
+   ]
+  },
+  {
+   "id": "web",
+   "area": "tech",
+   "emoji": "🕸️",
+   "title": "The web is not the internet",
+   "blurb": "How a physics lab gave us links.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🔌",
+     "kicker": "Two things",
+     "title": "The internet is the network, the web is what runs on it",
+     "text": "The internet is the global system of connected networks. The World Wide Web is a collection of pages and resources linked by hyperlinks, which you reach using the internet. Email and online games use the internet without using the web.",
+     "stat": "Internet ≠ web",
+     "statLabel": "the road vs the shops on it"
+    },
+    {
+     "t": "quiz",
+     "q": "Which of these uses the internet but is not part of the web?",
+     "opts": [
+      "A news website",
+      "Email sent between apps",
+      "A search engine",
+      "An online shop"
+     ],
+     "a": 1,
+     "why": "Email, messaging and many games use the internet using their own protocols, not web pages. The web is just one service among many."
+    },
+    {
+     "t": "fact",
+     "icon": "🧑‍🔬",
+     "kicker": "Birth",
+     "title": "Tim Berners-Lee proposed it at CERN in 1989",
+     "text": "He worked at CERN, the particle physics lab, and proposed a way to link documents so researchers could find each other’s information. By the end of 1990 he had built the first browser and server.",
+     "stat": "March 1989",
+     "statLabel": "the proposal"
+    },
+    {
+     "t": "fact",
+     "icon": "🔧",
+     "kicker": "Three inventions",
+     "title": "URL, HTTP and HTML",
+     "text": "A URL is the address of a page. HTTP is the way your browser asks for it. HTML is the language that describes what is on it, including links to other pages.",
+     "stat": "3",
+     "statLabel": "building blocks: URL, HTTP, HTML"
+    },
+    {
+     "t": "fact",
+     "icon": "🎁",
+     "kicker": "A free gift",
+     "title": "CERN made it royalty-free in 1993",
+     "text": "On 30 April 1993 CERN announced that the web’s technology could be used by anyone, free of charge. It helped it spread rapidly.",
+     "stat": "30 April 1993",
+     "statLabel": "royalty-free"
+    },
+    {
+     "t": "quiz",
+     "q": "Why did making the web free matter?",
+     "opts": [
+      "It made it faster",
+      "Anyone could build on it without paying or asking permission",
+      "It made it private",
+      "It banned adverts"
+     ],
+     "a": 1,
+     "why": "Because no one owned it, universities, companies and individuals could all build browsers and websites. Open standards let the web grow quickly."
+    }
+   ]
+  },
+  {
+   "id": "fees",
+   "area": "money",
+   "emoji": "🧾",
+   "title": "Why fees matter",
+   "blurb": "A small yearly cost adds up.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "💷",
+     "kicker": "Small numbers",
+     "title": "1% a year sounds tiny",
+     "text": "Investment funds charge a yearly percentage of what you hold. Because it is taken every year, it compounds against you in the same way growth compounds for you. Everything here uses a fixed 7% growth for simplicity, which real markets do not deliver smoothly.",
+     "stat": "1%",
+     "statLabel": "a typical yearly fee on some funds"
+    },
+    {
+     "t": "est",
+     "q": "£10,000 grows at 7% a year for 30 years with no fees. About how much do you have?",
+     "min": 10000,
+     "max": 200000,
+     "log": true,
+     "unit": "",
+     "answer": 76123,
+     "why": "10,000 times 1.07 multiplied 30 times is about £76,100."
+    },
+    {
+     "t": "est",
+     "q": "Now a 1% yearly fee reduces growth to 6% a year. About how much do you end up with?",
+     "min": 10000,
+     "max": 200000,
+     "log": true,
+     "unit": "",
+     "answer": 57435,
+     "why": "About £57,400, which is around £18,700, or roughly a quarter, less. The fee is only 1% a year, but it takes about a quarter of the final pot."
+    },
+    {
+     "t": "quiz",
+     "q": "Why does a small fee have a big effect?",
+     "opts": [
+      "It is paid once at the start",
+      "It is charged every year and also takes away growth that would have compounded",
+      "Fees are always illegal",
+      "It only matters in bad years"
+     ],
+     "a": 1,
+     "why": "Each year’s fee removes money that would have grown for the rest of the period. Over long periods the loss compounds."
+    },
+    {
+     "t": "fact",
+     "icon": "🧺",
+     "kicker": "Diversification",
+     "title": "An index fund owns lots of companies",
+     "text": "An index fund holds all the companies in an index. The S&P 500, for instance, tracks 500 large US companies. Spreading money widely reduces the damage if any one company fails.",
+     "stat": "500",
+     "statLabel": "companies in the S&P 500"
+    },
+    {
+     "t": "quiz",
+     "q": "What is a sensible thing to check before choosing a fund?",
+     "opts": [
+      "Only last year’s return",
+      "Its yearly fee and what it holds",
+      "The colour of its logo",
+      "How famous the manager is"
+     ],
+     "a": 1,
+     "why": "Fees are known in advance, while returns are not. S&P’s long-running SPIVA reports have repeatedly found that most actively managed funds fall behind their benchmark over 10 to 15 years. This is education, not advice."
     }
    ]
   }
