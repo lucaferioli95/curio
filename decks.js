@@ -923,5 +923,575 @@ window.DECKS = [
      "text": "Inflation is a general rise in prices, measured with a basket of goods. Small yearly rates add up to big changes over decades. Demand, costs and expectations can all push prices up. Higher interest rates are the main tool for cooling it down."
     }
    ]
+  },
+  /* ---- added in 1.2.0 ---- */
+  {
+   "id": "immune",
+   "area": "science",
+   "emoji": "🛡️",
+   "title": "Your immune system",
+   "blurb": "The army inside you, and how it learns.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🛡️",
+     "kicker": "Two layers",
+     "title": "Fast and general, then slow and specific",
+     "text": "Your body fights off threats all day. The innate layer reacts within minutes to anything that looks wrong: skin, mucus, inflammation and cells that swallow invaders. The adaptive layer takes days but builds a precise response to one particular germ.",
+     "stat": "Minutes vs days",
+     "statLabel": "innate vs adaptive"
+    },
+    {
+     "t": "quiz",
+     "q": "Which part of the immune system reacts first to a new germ?",
+     "opts": [
+      "The adaptive system, using antibodies",
+      "The innate system, within minutes",
+      "Memory cells",
+      "Only the fever response"
+     ],
+     "a": 1,
+     "why": "The innate system is always on guard and answers at once. The adaptive system needs days to find and multiply the right cells."
+    },
+    {
+     "t": "fact",
+     "icon": "🧫",
+     "kicker": "The specialists",
+     "title": "B cells make antibodies, T cells coordinate and kill",
+     "text": "Antibodies are Y-shaped proteins that lock onto one specific target, such as a piece of a virus. B cells produce them. T cells help direct the response and destroy cells that are already infected.",
+     "stat": "Y-shaped",
+     "statLabel": "antibodies lock onto one target"
+    },
+    {
+     "t": "fact",
+     "icon": "🧠",
+     "kicker": "Memory",
+     "title": "After an infection, some cells stay behind",
+     "text": "Memory B and T cells can last for years or decades. If the same germ returns, they respond much faster and stronger, often before you feel ill. This is the principle that vaccines use.",
+     "stat": "Faster",
+     "statLabel": "second meeting, quicker response"
+    },
+    {
+     "t": "quiz",
+     "q": "Antibiotics are medicines for which kind of infection?",
+     "opts": [
+      "Viruses, such as colds and flu",
+      "Bacteria",
+      "Both equally",
+      "Only fungal infections"
+     ],
+     "a": 1,
+     "why": "Antibiotics target bacteria. They do nothing against viruses, which is why they do not help with a cold. Using them when not needed also fuels resistance."
+    },
+    {
+     "t": "fact",
+     "icon": "🌡️",
+     "kicker": "Fever",
+     "title": "A fever is part of the defence, not just a symptom",
+     "text": "Raising body temperature, normally around 37°C, can slow some germs and speed up some immune responses. A fever is usually defined as 38°C or higher.",
+     "stat": "38°C",
+     "statLabel": "common threshold for a fever"
+    },
+    {
+     "t": "quiz",
+     "q": "Why can you catch a cold again and again?",
+     "opts": [
+      "Your immune system is weak",
+      "There are many different cold viruses, and some change over time",
+      "Colds are caused by bacteria",
+      "Memory cells last only a day"
+     ],
+     "a": 1,
+     "why": "Hundreds of virus types and variants cause colds. Immunity to one does not cover the others."
+    }
+   ]
+  },
+  {
+   "id": "vaccines",
+   "area": "science",
+   "emoji": "💉",
+   "title": "How vaccines work",
+   "blurb": "A practice run for your immune system.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🐄",
+     "kicker": "The first one",
+     "title": "Edward Jenner and cowpox, 1796",
+     "text": "Jenner noticed that milkmaids who caught mild cowpox seemed protected from smallpox. He tested the idea by inoculating a boy with cowpox material. The word vaccine comes from vacca, Latin for cow.",
+     "stat": "1796",
+     "statLabel": "year of Jenner’s experiment"
+    },
+    {
+     "t": "quiz",
+     "q": "What does a vaccine do?",
+     "opts": [
+      "Kills germs already in your body",
+      "Shows your immune system a harmless piece or version of a germ so it can prepare",
+      "Replaces your immune system for a while",
+      "Makes you permanently immune to everything"
+     ],
+     "a": 1,
+     "why": "A vaccine gives the immune system a safe preview. Memory cells are then ready if the real germ turns up."
+    },
+    {
+     "t": "est",
+     "q": "Smallpox is estimated to have killed how many people in the 20th century alone?",
+     "min": 1,
+     "max": 3000,
+     "log": true,
+     "unit": " million",
+     "answer": 300,
+     "why": "Estimates are around 300 million deaths. It was declared eradicated in 1980, after a global vaccination campaign. It is the only human disease eradicated so far."
+    },
+    {
+     "t": "fact",
+     "icon": "👥",
+     "kicker": "Protecting others",
+     "title": "Herd immunity",
+     "text": "When enough people are immune, an infection struggles to spread, which also protects babies and people who cannot be vaccinated. The share needed depends on how contagious the disease is. For measles, one of the most contagious, it is roughly 95%.",
+     "stat": "~95%",
+     "statLabel": "needed to block measles spread"
+    },
+    {
+     "t": "quiz",
+     "q": "Why do we need a new flu vaccine most years?",
+     "opts": [
+      "Vaccines wear off in a week",
+      "Flu viruses change, so last year’s match may not fit",
+      "The vaccine is made fresh to avoid side effects",
+      "Flu is caused by bacteria"
+     ],
+     "a": 1,
+     "why": "Flu viruses mutate steadily. Each year experts predict which strains will be common and update the vaccine."
+    },
+    {
+     "t": "fact",
+     "icon": "🔬",
+     "kicker": "Different recipes",
+     "title": "Weakened viruses, pieces of viruses, or instructions",
+     "text": "Some vaccines use a weakened germ, some a harmless fragment, and some, like the mRNA type, give cells instructions to make a fragment themselves. All aim at the same result: training the immune system.",
+     "stat": "mRNA",
+     "statLabel": "a recipe, not the virus itself"
+    }
+   ]
+  },
+  {
+   "id": "greenhouse",
+   "area": "science",
+   "emoji": "🌍",
+   "title": "The greenhouse effect",
+   "blurb": "Why Earth is warm, and what changes it.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "☀️",
+     "kicker": "A natural blanket",
+     "title": "Without it, Earth would be frozen",
+     "text": "Sunlight warms the surface, which gives off heat. Gases such as water vapour, carbon dioxide and methane absorb some of that heat and send part of it back down. Without this, the average surface temperature would be about -18°C instead of roughly 15°C.",
+     "stat": "+33°C",
+     "statLabel": "the natural greenhouse effect"
+    },
+    {
+     "t": "quiz",
+     "q": "Who first measured that gases like CO2 trap heat?",
+     "opts": [
+      "A scientist in the 1850s, John Tyndall",
+      "A NASA team in 1988",
+      "Ancient Greek astronomers",
+      "Nobody has measured it directly"
+     ],
+     "a": 0,
+     "why": "Tyndall did lab experiments in 1859. In 1896 Svante Arrhenius calculated that more CO2 would warm the planet. The basic physics is more than 160 years old."
+    },
+    {
+     "t": "fact",
+     "icon": "🪐",
+     "kicker": "A neighbour as a warning",
+     "title": "Venus",
+     "text": "Venus has an atmosphere about 96% carbon dioxide and a surface of roughly 465°C, hotter than Mercury even though it is farther from the Sun. It shows what a strong greenhouse effect does.",
+     "stat": "465°C",
+     "statLabel": "surface of Venus"
+    },
+    {
+     "t": "est",
+     "q": "Before the industrial era, the air held about 280 parts per million of CO2. What is the level today?",
+     "min": 200,
+     "max": 1000,
+     "unit": " ppm",
+     "answer": 425,
+     "why": "It is now above 420 ppm, an increase of about 50%. Burning coal, oil and gas, and clearing forests, are the main causes."
+    },
+    {
+     "t": "fact",
+     "icon": "🌡️",
+     "kicker": "The result so far",
+     "title": "About 1.1°C of warming",
+     "text": "The average global surface temperature is already roughly 1.1°C higher than in the late 1800s. A small average change shifts heatwaves, rainfall and sea level.",
+     "stat": "1.1°C",
+     "statLabel": "warmer than pre-industrial"
+    },
+    {
+     "t": "quiz",
+     "q": "Why is CO2 a long-term problem?",
+     "opts": [
+      "It disappears within a week",
+      "A large share stays in the air for centuries",
+      "It only matters over oceans",
+      "It cools the planet at night"
+     ],
+     "a": 1,
+     "why": "Part of emitted CO2 is absorbed by oceans and plants relatively quickly, but a lot lingers for hundreds of years. That is why the total we add matters."
+    }
+   ]
+  },
+  {
+   "id": "rome",
+   "area": "history",
+   "emoji": "🏛️",
+   "title": "The Roman Empire",
+   "blurb": "Roads, concrete and a very long ending.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🐺",
+     "kicker": "From a town",
+     "title": "Rome grew from a city into a Mediterranean power",
+     "text": "Tradition dates its founding to 753 BCE. It became a republic in 509 BCE, and in 27 BCE Augustus became the first emperor. Under Trajan, around 117 CE, the empire reached its greatest size.",
+     "stat": "27 BCE",
+     "statLabel": "Augustus becomes emperor"
+    },
+    {
+     "t": "quiz",
+     "q": "When did the Roman Empire fall?",
+     "opts": [
+      "476 CE only",
+      "1453 CE only",
+      "476 CE in the West, 1453 CE in the East",
+      "It never really fell"
+     ],
+     "a": 2,
+     "why": "The western half ended in 476. The eastern half, centred on Constantinople, lasted until the Ottoman conquest in 1453."
+    },
+    {
+     "t": "fact",
+     "icon": "🛣️",
+     "kicker": "Infrastructure",
+     "title": "Roads, aqueducts and law",
+     "text": "Romans built tens of thousands of kilometres of paved roads, aqueducts that carried water into cities, and a legal tradition that still shapes European law. Rome itself was supplied by eleven aqueducts.",
+     "stat": "11",
+     "statLabel": "aqueducts serving Rome"
+    },
+    {
+     "t": "fact",
+     "icon": "🏗️",
+     "kicker": "Concrete",
+     "title": "A material that has lasted two thousand years",
+     "text": "Romans mixed lime and volcanic ash into a strong concrete, even one that set underwater. The Pantheon’s dome, finished around 126 CE, is still the largest unreinforced concrete dome in the world.",
+     "stat": "43 m",
+     "statLabel": "width of the Pantheon dome"
+    },
+    {
+     "t": "est",
+     "q": "About how wide is the Pantheon’s concrete dome, in metres?",
+     "min": 5,
+     "max": 200,
+     "log": true,
+     "unit": " m",
+     "answer": 43,
+     "why": "About 43 metres, nearly the same as the building’s height, so a sphere of that size would fit inside."
+    },
+    {
+     "t": "quiz",
+     "q": "Which modern languages come mostly from Latin?",
+     "opts": [
+      "German and Dutch",
+      "Italian, Spanish, French and Portuguese",
+      "Russian and Polish",
+      "English only"
+     ],
+     "a": 1,
+     "why": "The Romance languages are what Latin became in different regions over centuries."
+    }
+   ]
+  },
+  {
+   "id": "pyramids",
+   "area": "history",
+   "emoji": "🔺",
+   "title": "The Great Pyramid",
+   "blurb": "Older than almost anything else you can visit.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🔺",
+     "kicker": "Khufu’s tomb",
+     "title": "Built around 2560 BCE",
+     "text": "The Great Pyramid at Giza was built for the pharaoh Khufu over roughly 20 years. It was the tallest human-made structure on Earth for about 3,800 years, until Lincoln Cathedral in England was completed in 1311.",
+     "stat": "~4,500",
+     "statLabel": "years old"
+    },
+    {
+     "t": "est",
+     "q": "About how many stone blocks make up the Great Pyramid?",
+     "min": 10000,
+     "max": 100000000,
+     "log": true,
+     "unit": "",
+     "answer": 2300000,
+     "why": "About 2.3 million blocks, mostly limestone. To finish in 20 years, this means placing a block every few minutes."
+    },
+    {
+     "t": "quiz",
+     "q": "Who built the pyramids?",
+     "opts": [
+      "Slaves forced by the pharaoh",
+      "Skilled paid and fed workers, with seasonal labour",
+      "Aliens",
+      "Foreign armies"
+     ],
+     "a": 1,
+     "why": "Excavations of workers’ villages near Giza show bakeries, breweries and medical care. The evidence points to organised, fed and housed labourers."
+    },
+    {
+     "t": "fact",
+     "icon": "📐",
+     "kicker": "Precision",
+     "title": "Almost perfectly aligned",
+     "text": "The base is about 230 metres on each side, and its sides are aligned to the compass points with an error of a fraction of a degree. Its original height was about 146.6 metres.",
+     "stat": "146.6 m",
+     "statLabel": "original height"
+    },
+    {
+     "t": "fact",
+     "icon": "⏳",
+     "kicker": "Time is strange",
+     "title": "Cleopatra lived closer to us than to the pyramid",
+     "text": "Cleopatra died in 30 BCE, about 2,500 years after the pyramid was built. That is more than the roughly 2,000 years between her death and the Moon landing in 1969.",
+     "stat": "2,500 vs 2,000",
+     "statLabel": "years: pyramid to Cleopatra vs Cleopatra to us"
+    },
+    {
+     "t": "quiz",
+     "q": "Why is the Great Pyramid shorter today than when built?",
+     "opts": [
+      "It sank into sand",
+      "Its smooth outer casing and top were removed over time",
+      "Earthquakes squashed it",
+      "Its measurements were wrong"
+     ],
+     "a": 1,
+     "why": "Polished limestone casing was taken for other buildings, and the top stones are lost. It stands about 138 metres today."
+    }
+   ]
+  },
+  {
+   "id": "gps",
+   "area": "tech",
+   "emoji": "🛰️",
+   "title": "How GPS works",
+   "blurb": "Your phone finds you using clocks in space.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🛰️",
+     "kicker": "The setup",
+     "title": "Around 30 satellites, 20,000 km up",
+     "text": "The GPS satellites orbit at about 20,200 km and each one constantly broadcasts its position and the exact time. Your phone only listens. It sends nothing to the satellites.",
+     "stat": "~31",
+     "statLabel": "working GPS satellites"
+    },
+    {
+     "t": "est",
+     "q": "A GPS signal travels at the speed of light. How long does it take from a satellite directly overhead, 20,200 km up, to reach you?",
+     "min": 1,
+     "max": 1000,
+     "log": true,
+     "unit": " ms",
+     "answer": 67,
+     "why": "About 0.067 seconds. Your phone measures tiny differences in arrival time, and uses the speed of light to turn them into distances."
+    },
+    {
+     "t": "fact",
+     "icon": "📏",
+     "kicker": "Distance from time",
+     "title": "Time becomes distance",
+     "text": "If you know how long a signal took, you know how far away the satellite is. Distances from several satellites give a single point, a bit like drawing circles that overlap in one spot.",
+     "stat": "1 µs",
+     "statLabel": "error means about 300 m"
+    },
+    {
+     "t": "quiz",
+     "q": "How many satellites does a receiver need for a position fix?",
+     "opts": [
+      "One",
+      "Two",
+      "At least four",
+      "Exactly twenty"
+     ],
+     "a": 2,
+     "why": "Three give position in space. The fourth fixes the phone’s own cheap clock, which is far less accurate than the atomic clocks in the satellites."
+    },
+    {
+     "t": "fact",
+     "icon": "⏱️",
+     "kicker": "Einstein inside",
+     "title": "Relativity has to be corrected for",
+     "text": "Satellite clocks run slightly different from ones on the ground, because of their speed and weaker gravity. The net effect is about 38 microseconds a day. Without correction, errors would add up to kilometres within a day.",
+     "stat": "38 µs",
+     "statLabel": "per day, corrected"
+    },
+    {
+     "t": "quiz",
+     "q": "Which of these is also a satellite navigation system?",
+     "opts": [
+      "Galileo, from the EU",
+      "Gutenberg",
+      "Meridian",
+      "Cortex"
+     ],
+     "a": 0,
+     "why": "GPS is the American system. Europe’s Galileo, Russia’s GLONASS and China’s BeiDou work the same way, and phones often use several at once."
+    }
+   ]
+  },
+  {
+   "id": "chips",
+   "area": "tech",
+   "emoji": "💾",
+   "title": "Transistors and chips",
+   "blurb": "Billions of tiny switches doing all the work.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🔌",
+     "kicker": "The basic part",
+     "title": "A transistor is an electronic switch",
+     "text": "It lets current flow or not, depending on a signal. Switches can stand for 1 and 0, and combinations of them can add, compare and remember. Every program you use is built from that.",
+     "stat": "1 or 0",
+     "statLabel": "on or off"
+    },
+    {
+     "t": "fact",
+     "icon": "🧪",
+     "kicker": "Beginning",
+     "title": "The first transistor, 1947",
+     "text": "It was built at Bell Labs and was about the size of a hand. Before it, computers used vacuum tubes that were bigger, hotter and failed often.",
+     "stat": "1947",
+     "statLabel": "Bell Labs"
+    },
+    {
+     "t": "est",
+     "q": "The Intel 4004, a 1971 chip, had 2,300 transistors. How many does a modern phone chip have, in billions?",
+     "min": 0.001,
+     "max": 1000,
+     "log": true,
+     "unit": " billion",
+     "answer": 19,
+     "why": "About 19 billion in a 2023 flagship phone chip, around 8 million times more than 1971."
+    },
+    {
+     "t": "quiz",
+     "q": "What is Moore’s law?",
+     "opts": [
+      "A law of physics",
+      "An observation that the number of transistors on a chip doubled roughly every two years",
+      "A rule that computers must double in price",
+      "A limit on chip size"
+     ],
+     "a": 1,
+     "why": "Gordon Moore noticed the trend in 1965. It was never a law of nature, and progress has slowed as parts approach atomic size."
+    },
+    {
+     "t": "fact",
+     "icon": "🔬",
+     "kicker": "How small",
+     "title": "Features measured in nanometres",
+     "text": "A human hair is about 70,000 nanometres wide. The smallest features on advanced chips are a few nanometres across, only a few dozen atoms.",
+     "stat": "~70,000 nm",
+     "statLabel": "width of a human hair"
+    },
+    {
+     "t": "quiz",
+     "q": "What does a logic gate do?",
+     "opts": [
+      "Stores a file",
+      "Combines inputs such as 1 and 0 into an output by a simple rule",
+      "Connects to the internet",
+      "Cools the chip"
+     ],
+     "a": 1,
+     "why": "An AND gate outputs 1 only if both inputs are 1. Billions of simple gates combined produce everything a computer does."
+    }
+   ]
+  },
+  {
+   "id": "probability",
+   "area": "money",
+   "emoji": "🎲",
+   "title": "Probability traps",
+   "blurb": "Where intuition fails, and what to do about it.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🎂",
+     "kicker": "Birthdays",
+     "title": "The birthday paradox",
+     "text": "In a room of just 23 people, there is slightly better than a 50% chance that two share a birthday. With 70 people, it is about 99.9%. The reason is that you are comparing every pair, and 23 people make 253 pairs.",
+     "stat": "23",
+     "statLabel": "people for a 50% chance"
+    },
+    {
+     "t": "est",
+     "q": "How many people do you need in a room for a 50% chance of a shared birthday?",
+     "min": 2,
+     "max": 365,
+     "unit": " people",
+     "answer": 23,
+     "why": "Most people guess near 183, half of 365. But the number of pairs grows much faster than the number of people."
+    },
+    {
+     "t": "quiz",
+     "q": "A fair coin lands heads five times in a row. What is the chance of heads next?",
+     "opts": [
+      "Lower, tails is due",
+      "Higher, heads is on a streak",
+      "Still 50%",
+      "Zero"
+     ],
+     "a": 2,
+     "why": "The coin has no memory. Believing otherwise is called the gambler’s fallacy."
+    },
+    {
+     "t": "fact",
+     "icon": "🩺",
+     "kicker": "Base rates",
+     "title": "A positive test is not the whole story",
+     "text": "Suppose a disease affects 1 in 1,000 people, and a test is right 99% of the time for both sick and healthy people. If you test positive, the chance you are sick is only about 9%, because healthy people are so much more numerous.",
+     "stat": "~9%",
+     "statLabel": "chance of illness after a positive"
+    },
+    {
+     "t": "quiz",
+     "q": "Why is the chance only about 9%?",
+     "opts": [
+      "The test is bad",
+      "False positives from many healthy people outnumber true positives",
+      "The disease is rare so it never occurs",
+      "Tests are random"
+     ],
+     "a": 1,
+     "why": "Out of 1,000 people, about 1 is sick and tests positive, but 1% of the 999 healthy people, around 10, also test positive. So about 1 in 11 positives is truly sick."
+    },
+    {
+     "t": "fact",
+     "icon": "🧠",
+     "kicker": "What to do",
+     "title": "Ask: out of how many?",
+     "text": "Turning percentages into counts of people, such as 10 in 1,000, makes many of these puzzles easy. It is a good habit with medical, financial and news statistics.",
+     "stat": "Counts",
+     "statLabel": "beat percentages for intuition"
+    }
+   ]
   }
 ];

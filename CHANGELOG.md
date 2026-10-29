@@ -2,6 +2,9 @@
 
 All notable changes to Curio, newest first. The version number is also shown in the app.
 
+## 1.2.0 - 2026-10-29
+- 8 more lessons, 24 in total: your immune system, how vaccines work, the greenhouse effect, the Roman Empire, the Great Pyramid, how GPS works, transistors and chips, and probability traps.
+
 ## 1.1.0 - 2026-10-28
 - 8 new lessons, 16 in total: black holes, the science of sleep, how evolution works, how encryption keeps secrets, the printing press, the Silk Road, why languages change, and inflation.
 - Key-term cards now show the term and its meaning; every lesson ends with a short recap.
