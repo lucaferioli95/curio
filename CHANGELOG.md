@@ -2,6 +2,10 @@
 
 All notable changes to Curio, newest first. The version number is also shown in the app.
 
+## 1.1.0 - 2026-10-28
+- 8 new lessons, 16 in total: black holes, the science of sleep, how evolution works, how encryption keeps secrets, the printing press, the Silk Road, why languages change, and inflation.
+- Key-term cards now show the term and its meaning; every lesson ends with a short recap.
+
 ## 1.0.0 - 2026-10-28
 - First release: a swipeable lesson feed with quick questions.
 - 8 lessons in 4 topics: space, the human body, how money grows, thinking like an economist, five turning points in history, ways of thinking, how AI chatbots work, and how the internet works.

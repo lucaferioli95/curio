@@ -151,7 +151,7 @@ h1, h2, h3 { font-family: var(--serif); margin: 0; font-weight: 700; letter-spac
 <script>
 (function () {
   'use strict';
-  var APP_VERSION = '1.0.0';
+  var APP_VERSION = '1.1.0';
   var $ = function (s) { return document.querySelector(s); };
   var DECKS = window.DECKS, AREAS = window.AREAS;
   var areaOf = {}; AREAS.forEach(function (a) { areaOf[a.id] = a; });
@@ -211,7 +211,7 @@ h1, h2, h3 { font-family: var(--serif); margin: 0; font-weight: 700; letter-spac
     var close = '</div><div class="hint"><i aria-hidden="true">↑</i>Swipe up</div></section>';
     if (c.t === 'fact') {
       return open + '<div class="kick"><span class="ic" aria-hidden="true">' + c.icon + '</span>' + esc(c.kicker) + '</div><h2>' + esc(c.title) + '</h2><p class="tx">' + esc(c.text) + '</p>' +
-        '<div class="stat"><b>' + esc(c.stat) + '</b><span>' + esc(c.statLabel) + '</span></div>' + close;
+        (c.stat ? '<div class="stat"><b>' + esc(c.stat) + '</b><span>' + esc(c.statLabel || '') + '</span></div>' : '') + close;
     }
     if (c.t === 'quiz') {
       return open + '<div class="kick"><span class="ic" aria-hidden="true">❓</span>Quick question</div><div class="q">' + esc(c.q) + '</div><div class="opts" role="group" aria-label="Answers">' +

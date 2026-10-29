@@ -240,5 +240,688 @@ window.DECKS = [
         opts: ['The site is safe and honest', 'The connection to the site is encrypted', 'The site has no viruses', 'A government approved the site'], a: 1,
         why: 'It tells you about the connection only. Always check the address and be wary of unexpected requests for passwords or payments.' }
     ]
+  },
+  /* ---- added in 1.1.0 ---- */
+  {
+   "id": "black-holes",
+   "area": "science",
+   "emoji": "🕳️",
+   "title": "Black holes",
+   "blurb": "The edge you can never come back from",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🕳️",
+     "kicker": "Start here",
+     "title": "Nothing that crosses a black hole’s edge can come back out. Not even light.",
+     "text": "So how can something this extreme be real?"
+    },
+    {
+     "t": "fact",
+     "icon": "🕳️",
+     "kicker": "The idea",
+     "title": "Gravity is bent space",
+     "text": "Einstein’s general relativity says mass bends space and time, and objects simply follow the curves. A black hole is mass squeezed so tightly that the curve becomes a one-way drop."
+    },
+    {
+     "t": "quiz",
+     "q": "Swap the Sun for a black hole of the same mass. What happens to Earth’s orbit?",
+     "opts": [
+      "Earth is sucked in at once",
+      "Nothing changes about the orbit",
+      "Earth flies off into space"
+     ],
+     "a": 1,
+     "why": "Gravity depends on mass and distance, not on how squeezed the mass is. Same mass, same orbit. We would just be cold and in the dark."
+    },
+    {
+     "t": "fact",
+     "icon": "🕳️",
+     "kicker": "The idea",
+     "title": "The point of no return",
+     "text": "The boundary is called the event horizon. It sits where the speed needed to escape equals the speed of light. Nothing travels faster than light, so nothing escapes from inside.",
+     "stat": "Event horizon",
+     "statLabel": "The one-way edge around a black hole."
+    },
+    {
+     "t": "fact",
+     "icon": "🕳️",
+     "kicker": "Key number",
+     "title": "Radius of the event horizon of a black hole with the Sun’s mass.",
+     "text": "To become a black hole, Earth would have to be squeezed to a radius of about 9 millimetres.",
+     "stat": "3 km",
+     "statLabel": ""
+    },
+    {
+     "t": "fact",
+     "icon": "🕳️",
+     "kicker": "The idea",
+     "title": "How do we see the invisible?",
+     "text": "We watch what is around it: stars whipping around an unseen centre, and hot gas glowing as it falls in. In 2015 detectors felt ripples in space from two black holes merging. In 2019 and 2022 the Event Horizon Telescope imaged the shadows of two more."
+    },
+    {
+     "t": "est",
+     "q": "How many times the Sun’s mass is the black hole at the centre of our galaxy?",
+     "min": 0.1,
+     "max": 1000,
+     "unit": " million Suns",
+     "answer": 4.3,
+     "why": "It is called Sagittarius A*. We tracked stars orbiting it for decades to weigh it.",
+     "log": true
+    },
+    {
+     "t": "quiz",
+     "q": "What defines the event horizon?",
+     "opts": [
+      "The surface of a solid object",
+      "Where escape speed reaches the speed of light",
+      "The exact centre of the black hole"
+     ],
+     "a": 1,
+     "why": "It is not a surface. It is a boundary in space, and you would not feel anything special crossing it."
+    },
+    {
+     "t": "fact",
+     "icon": "✅",
+     "kicker": "Recap",
+     "title": "What you now know",
+     "text": "Mass bends space, and a black hole bends it into a one-way drop. From far away, a black hole pulls just like any object of the same mass. The event horizon is the edge where even light cannot get out. We find black holes by their effects on stars, gas and space itself."
+    }
+   ]
+  },
+  {
+   "id": "sleep",
+   "area": "science",
+   "emoji": "😴",
+   "title": "The science of sleep",
+   "blurb": "What your brain does while you are out",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "😴",
+     "kicker": "Start here",
+     "title": "You spend about a third of your life asleep, and scientists still debate exactly why.",
+     "text": "What we do know is surprisingly practical."
+    },
+    {
+     "t": "fact",
+     "icon": "😴",
+     "kicker": "The idea",
+     "title": "Sleep runs in cycles",
+     "text": "A night is made of cycles of about 90 minutes. Each one moves through light sleep, deep sleep and dreaming (REM) sleep. You pass through four to six cycles a night."
+    },
+    {
+     "t": "quiz",
+     "q": "Which part of the night has the most deep sleep?",
+     "opts": [
+      "The first half",
+      "The second half",
+      "It is spread evenly"
+     ],
+     "a": 0,
+     "why": "Deep sleep is front-loaded. REM, where most vivid dreams happen, grows longer toward morning. Cutting the end of your night costs you REM."
+    },
+    {
+     "t": "fact",
+     "icon": "😴",
+     "kicker": "The idea",
+     "title": "Two clocks run your sleep",
+     "text": "One is your body clock, a rhythm of about 24 hours that follows light and dark. The other is sleep pressure: a chemical called adenosine builds up the longer you are awake and makes you drowsy.",
+     "stat": "Adenosine",
+     "statLabel": "A chemical that builds up while you are awake."
+    },
+    {
+     "t": "fact",
+     "icon": "😴",
+     "kicker": "Key number",
+     "title": "Sleep that guidelines recommend for most adults, with at least 7 as the floor.",
+     "text": "Needs vary from person to person, and the feeling of being rested matters too.",
+     "stat": "7 to 9 h",
+     "statLabel": ""
+    },
+    {
+     "t": "fact",
+     "icon": "😴",
+     "kicker": "The idea",
+     "title": "The overnight shift",
+     "text": "Sleep helps the brain file away the day’s memories and strengthen the ones that matter. In animal studies, the brain also clears waste products more efficiently during sleep."
+    },
+    {
+     "t": "quiz",
+     "q": "Why can a late coffee ruin your night?",
+     "opts": [
+      "It blocks adenosine, the signal of sleep pressure",
+      "It resets your body clock by hours",
+      "It raises your body temperature for the night"
+     ],
+     "a": 0,
+     "why": "Caffeine blocks adenosine’s receptors, so you feel less tired even though the pressure is still building. It takes around five hours for half of it to leave your body."
+    },
+    {
+     "t": "est",
+     "q": "How long is one typical sleep cycle?",
+     "min": 30,
+     "max": 180,
+     "unit": " minutes",
+     "answer": 90,
+     "why": "It varies from roughly 80 to 110 minutes. That is why waking between cycles can feel easier than waking in the middle of one."
+    },
+    {
+     "t": "fact",
+     "icon": "✅",
+     "kicker": "Recap",
+     "title": "What you now know",
+     "text": "Sleep is cycles of about 90 minutes, four to six a night. Deep sleep comes early, REM sleep comes late. Body clock plus sleep pressure decide when you feel sleepy. Caffeine hides sleep pressure rather than removing it."
+    }
+   ]
+  },
+  {
+   "id": "evolution",
+   "area": "science",
+   "emoji": "🧬",
+   "title": "How evolution works",
+   "blurb": "A filter that never stops running",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🧬",
+     "kicker": "Start here",
+     "title": "Evolution is not a ladder toward a perfect animal. It is a filter that never stops running.",
+     "text": "Three simple ingredients are enough."
+    },
+    {
+     "t": "fact",
+     "icon": "🧬",
+     "kicker": "The idea",
+     "title": "Three ingredients",
+     "text": "Variation: individuals in a group differ from each other. Heredity: some of those differences are passed to offspring. Different success: some versions leave more offspring than others. Put those together and a population changes over generations."
+    },
+    {
+     "t": "quiz",
+     "q": "Did giraffes get long necks because each giraffe stretched for leaves and passed the stretch on?",
+     "opts": [
+      "Yes, stretching is inherited",
+      "No, longer-necked individuals did better, so the trait spread",
+      "Only male giraffes changed"
+     ],
+     "a": 1,
+     "why": "Traits you gain in life are not passed on like that. Over many generations, individuals with longer necks left more offspring, so the average changed."
+    },
+    {
+     "t": "fact",
+     "icon": "🧬",
+     "kicker": "The idea",
+     "title": "Mutation is random, selection is not",
+     "text": "New mutations appear by chance, with no regard for what would help. A newborn human carries around 70 new ones. Selection is the opposite of random. Variants that help survival and reproduction in that environment become more common.",
+     "stat": "Mutation",
+     "statLabel": "A random change in DNA."
+    },
+    {
+     "t": "fact",
+     "icon": "🧬",
+     "kicker": "Key number",
+     "title": "How fast some bacteria can double in ideal lab conditions.",
+     "text": "Fast generations mean fast evolution. It is how antibiotic resistance spreads.",
+     "stat": "20 min",
+     "statLabel": ""
+    },
+    {
+     "t": "fact",
+     "icon": "🧬",
+     "kicker": "The idea",
+     "title": "“Fitness” means offspring",
+     "text": "In biology, fitness is not strength. It is how many descendants a trait leaves behind in a given environment. Peppered moths in industrial Britain: dark forms became common when soot darkened tree bark, then rare again after clean air laws."
+    },
+    {
+     "t": "quiz",
+     "q": "What does “survival of the fittest” really mean?",
+     "opts": [
+      "The strongest animals win fights",
+      "Traits that leave more offspring in an environment become more common",
+      "Species improve toward a goal"
+     ],
+     "a": 1,
+     "why": "There is no goal. What counts as fit depends on the environment, and environments change."
+    },
+    {
+     "t": "est",
+     "q": "What percentage of the aligned DNA letters do humans share with chimpanzees?",
+     "min": 50,
+     "max": 100,
+     "unit": "%",
+     "answer": 98.8,
+     "why": "Small percentages of difference still add up to tens of millions of letters, and where they sit matters as much as how many there are."
+    },
+    {
+     "t": "fact",
+     "icon": "✅",
+     "kicker": "Recap",
+     "title": "What you now know",
+     "text": "Variation, heredity and different success are enough to drive change. Mutations are random, selection is not. Fitness means leaving descendants, not being strong. There is no goal or ladder, only fit to a changing environment."
+    }
+   ]
+  },
+  {
+   "id": "encryption",
+   "area": "tech",
+   "emoji": "🔐",
+   "title": "How encryption keeps secrets",
+   "blurb": "Locks anyone can close and only you can open",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🔐",
+     "kicker": "Start here",
+     "title": "You can send a secret to someone you have never met, over a channel everyone can watch.",
+     "text": "Mathematics makes that possible."
+    },
+    {
+     "t": "fact",
+     "icon": "🔐",
+     "kicker": "The idea",
+     "title": "The old problem",
+     "text": "Traditional encryption uses one shared secret key to lock and unlock messages. But before you can use it, you and your friend must agree on the key, and you cannot send it safely over a channel someone is watching.",
+     "stat": "Key",
+     "statLabel": "A secret number used to lock or unlock data."
+    },
+    {
+     "t": "fact",
+     "icon": "🔐",
+     "kicker": "The idea",
+     "title": "Two keys, not one",
+     "text": "In the 1970s a new idea appeared: a pair of keys. The public key can be given to anyone. The private key never leaves you. Think of a padlock you hand out open. Anyone can snap it shut, but only you have the key to open it."
+    },
+    {
+     "t": "quiz",
+     "q": "You want to send Alice a secret. What do you lock it with?",
+     "opts": [
+      "Your private key",
+      "Alice’s public key",
+      "Alice’s private key"
+     ],
+     "a": 1,
+     "why": "Anyone can lock with Alice’s public key. Only Alice, holding the matching private key, can unlock it. You never need to have met."
+    },
+    {
+     "t": "fact",
+     "icon": "🔐",
+     "kicker": "The idea",
+     "title": "Maths that only goes one way",
+     "text": "Multiplying two huge prime numbers is easy. Starting from the answer and finding the two primes is, as far as anyone knows, extremely hard. RSA, one of the first public-key systems, builds on that gap, using numbers hundreds of digits long."
+    },
+    {
+     "t": "fact",
+     "icon": "🔐",
+     "kicker": "The idea",
+     "title": "What the padlock in your browser does",
+     "text": "Your browser uses public-key maths for a quick handshake to agree on a fresh secret key with the website. After that, both sides switch to the faster one-key encryption for the actual page."
+    },
+    {
+     "t": "fact",
+     "icon": "🔐",
+     "kicker": "Key number",
+     "title": "The year Diffie and Hellman published public-key ideas to the world.",
+     "text": "Mathematicians at Britain’s GCHQ had found it a few years earlier, but it was secret until 1997.",
+     "stat": "1976",
+     "statLabel": ""
+    },
+    {
+     "t": "quiz",
+     "q": "Why does your browser switch to a shared key after the handshake?",
+     "opts": [
+      "One-key encryption is much faster for large amounts of data",
+      "Public keys expire after a few seconds",
+      "Websites cannot store public keys"
+     ],
+     "a": 0,
+     "why": "Public-key maths is slow. Using it just to agree on a key, and then one-key encryption for the data, gets security and speed."
+    },
+    {
+     "t": "fact",
+     "icon": "✅",
+     "kicker": "Recap",
+     "title": "What you now know",
+     "text": "Shared keys have a delivery problem: how do you hand over the key safely? Public keys can be shared openly, private keys stay secret. It relies on maths that is easy one way and very hard the other. HTTPS uses both: slow public keys to agree, fast shared keys for the data."
+    }
+   ]
+  },
+  {
+   "id": "printing",
+   "area": "history",
+   "emoji": "📜",
+   "title": "The printing press",
+   "blurb": "The machine that sped up ideas",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "📜",
+     "kicker": "Start here",
+     "title": "Around 1450 a single book took a scribe months to copy. Within one lifetime, that changed completely.",
+     "text": "And Gutenberg was not the first to print with movable type."
+    },
+    {
+     "t": "quiz",
+     "q": "Who first used movable type?",
+     "opts": [
+      "Johannes Gutenberg",
+      "Printers in China, about 400 years earlier",
+      "Venetian merchants"
+     ],
+     "a": 1,
+     "why": "Bi Sheng made movable clay type in China around 1040, and Korea printed with metal type in the 1300s. Gutenberg’s achievement was putting the pieces together into a system that scaled in Europe."
+    },
+    {
+     "t": "fact",
+     "icon": "📜",
+     "kicker": "The idea",
+     "title": "What Gutenberg combined",
+     "text": "Around 1450 in Mainz, he brought together a press adapted from wine presses, an oil-based ink that stuck to metal, and a mould for casting metal letters quickly and consistently. The Latin alphabet, with few letters, suited movable type well."
+    },
+    {
+     "t": "fact",
+     "icon": "📜",
+     "kicker": "Key number",
+     "title": "Copies of the Gutenberg Bible printed, of which around 49 survive today in whole or in part.",
+     "text": "Each one still had to be hand-decorated by its buyer.",
+     "stat": "~180",
+     "statLabel": ""
+    },
+    {
+     "t": "fact",
+     "icon": "📜",
+     "kicker": "The idea",
+     "title": "Books got cheap",
+     "text": "A press could produce in days what a scribe produced in a year. The price of a book fell sharply. Printing shops spread across hundreds of European towns. Venice became a hub, where Aldus Manutius made small, portable books."
+    },
+    {
+     "t": "fact",
+     "icon": "📜",
+     "kicker": "The idea",
+     "title": "Ideas travelled faster",
+     "text": "Luther’s criticisms of the church in 1517 were printed and spread across Germany within weeks. Scientists could share identical diagrams and tables, so the next person could build on exactly the same figure."
+    },
+    {
+     "t": "quiz",
+     "q": "What was Gutenberg’s real breakthrough?",
+     "opts": [
+      "Inventing the very idea of printing",
+      "Combining oil-based ink, a press and mass-produced metal type into one system",
+      "Inventing paper"
+     ],
+     "a": 1,
+     "why": "Printing existed already. What was new was a practical, repeatable, scalable system."
+    },
+    {
+     "t": "est",
+     "q": "About how many different editions of books had been printed in Europe by 1500?",
+     "min": 1000,
+     "max": 1000000,
+     "log": true,
+     "unit": " editions",
+     "answer": 30000,
+     "why": "Almost 30,000 editions by 1500, from presses in some 280 cities. Fifty years earlier, every copy of every book had been written out by hand."
+    },
+    {
+     "t": "fact",
+     "icon": "✅",
+     "kicker": "Recap",
+     "title": "What you now know",
+     "text": "Movable type was used in China and Korea centuries before Gutenberg. Gutenberg joined ink, press and cast metal type into a scalable system. Books became cheaper and printing shops spread widely. Ideas, from religion to science, moved faster and in identical form."
+    }
+   ]
+  },
+  {
+   "id": "silk-road",
+   "area": "history",
+   "emoji": "🐪",
+   "title": "The Silk Road",
+   "blurb": "Not one road, and not just silk",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🐪",
+     "kicker": "Start here",
+     "title": "Silk, paper and plague all travelled the same routes. Almost nobody travelled the whole way.",
+     "text": "It was a relay, not a highway."
+    },
+    {
+     "t": "fact",
+     "icon": "🐪",
+     "kicker": "The idea",
+     "title": "A network, not a road",
+     "text": "The name was coined in 1877 by the German geographer Ferdinand von Richthofen. It stands for a web of land and sea routes linking China, Central Asia, Persia, Arabia and the Mediterranean. The Han dynasty’s envoy Zhang Qian opened up the westward links in the 130s BCE."
+    },
+    {
+     "t": "quiz",
+     "q": "Who gave the Silk Road its name?",
+     "opts": [
+      "Marco Polo",
+      "A 19th-century German geographer",
+      "A Han emperor"
+     ],
+     "a": 1,
+     "why": "Nobody at the time called it that. Traders thought in terms of their own stretch of the journey."
+    },
+    {
+     "t": "fact",
+     "icon": "🐪",
+     "kicker": "The idea",
+     "title": "Trade as a relay",
+     "text": "Goods passed from merchant to merchant, each adding their cut. The Sogdians of Central Asia were famous middlemen. By the time silk reached Rome, it was a luxury so expensive that writers like Pliny the Elder complained about the wealth flowing out of the empire."
+    },
+    {
+     "t": "fact",
+     "icon": "🐪",
+     "kicker": "The idea",
+     "title": "Much more than silk",
+     "text": "Buddhism travelled east into China. Paper, and later gunpowder and the compass, travelled west. Horses, grapes, glassware and spices moved in all directions. According to tradition, papermaking reached the Islamic world after a clash at Talas in 751."
+    },
+    {
+     "t": "fact",
+     "icon": "🐪",
+     "kicker": "Key number",
+     "title": "The year the Black Death arrived by ship at Mediterranean ports.",
+     "text": "The plague bacterium is widely thought to have spread along trade routes like these.",
+     "stat": "1347",
+     "statLabel": ""
+    },
+    {
+     "t": "quiz",
+     "q": "Why did few merchants travel the whole route?",
+     "opts": [
+      "It was illegal",
+      "Goods changed hands in relays across many regions and middlemen",
+      "The roads only went one way"
+     ],
+     "a": 1,
+     "why": "Different regions, languages, rulers and climates made it easier to trade over a stretch you knew."
+    },
+    {
+     "t": "est",
+     "q": "About how long was the main overland route of the Silk Road?",
+     "min": 1000,
+     "max": 15000,
+     "unit": " km",
+     "answer": 6400,
+     "why": "That is roughly 4,000 miles, with many branches and side routes, across deserts and mountain passes."
+    },
+    {
+     "t": "fact",
+     "icon": "✅",
+     "kicker": "Recap",
+     "title": "What you now know",
+     "text": "“Silk Road” is a modern name for many routes. Goods moved in relays, not on single journeys. Religions, technologies and diseases moved along with the goods. The network linked Asia, the Middle East and Europe for well over a thousand years."
+    }
+   ]
+  },
+  {
+   "id": "languages",
+   "area": "history",
+   "emoji": "🗣️",
+   "title": "Why languages change",
+   "blurb": "Why “knight” has a silent k",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🗣️",
+     "kicker": "Start here",
+     "title": "Read a page of English from the year 1000 and you would swear it was another language. In a sense, it is.",
+     "text": "Language never stands still."
+    },
+    {
+     "t": "fact",
+     "icon": "🗣️",
+     "kicker": "The idea",
+     "title": "Change is the default",
+     "text": "Each generation pronounces things a little differently, and the shifts add up. Between about 1400 and 1700, English long vowels shifted dramatically in what is known as the Great Vowel Shift."
+    },
+    {
+     "t": "quiz",
+     "q": "Why does “knight” have a silent k?",
+     "opts": [
+      "People forgot how to spell it",
+      "It used to be pronounced, then the sound dropped out but the spelling stayed",
+      "French teachers added it"
+     ],
+     "a": 1,
+     "why": "The k and the gh were once pronounced. Printing helped freeze spelling just as pronunciation kept moving on."
+    },
+    {
+     "t": "fact",
+     "icon": "🗣️",
+     "kicker": "The idea",
+     "title": "Languages come in families",
+     "text": "English, Latin, Greek, Persian and Hindi, and many more, share a common ancestor now called Proto-Indo-European. Compare “mother” in English, “mater” in Latin and “matar” in Sanskrit, and “three”, “tres” and “trayas”."
+    },
+    {
+     "t": "fact",
+     "icon": "🗣️",
+     "kicker": "The idea",
+     "title": "Contact changes language",
+     "text": "After the Norman Conquest in 1066, thousands of French words entered English. English farmers kept animal names: cow, pig and sheep. The French-speaking upper classes ate them: beef, pork and mutton."
+    },
+    {
+     "t": "fact",
+     "icon": "🗣️",
+     "kicker": "Key number",
+     "title": "Share of the world’s languages that are considered endangered.",
+     "text": "Many have only a handful of speakers, and most of the world’s people speak a small number of big languages.",
+     "stat": "~40%",
+     "statLabel": ""
+    },
+    {
+     "t": "quiz",
+     "q": "Why do English, Latin and Hindi share similar words?",
+     "opts": [
+      "They borrowed from each other recently",
+      "They descend from a common ancestor language",
+      "It is coincidence"
+     ],
+     "a": 1,
+     "why": "Regular sound changes between these languages are how scholars reconstruct the lost ancestor. The idea goes back to Sir William Jones in 1786."
+    },
+    {
+     "t": "est",
+     "q": "How many languages are spoken in the world today?",
+     "min": 500,
+     "max": 20000,
+     "unit": " languages",
+     "answer": 7000,
+     "why": "The exact count depends on where you draw the line between a language and a dialect."
+    },
+    {
+     "t": "fact",
+     "icon": "✅",
+     "kicker": "Recap",
+     "title": "What you now know",
+     "text": "Pronunciation drifts, and spelling often lags behind. Related languages descend from common ancestors. Conquest and trade bring in new words. About 7,000 languages exist, and many are endangered."
+    }
+   ]
+  },
+  {
+   "id": "inflation",
+   "area": "money",
+   "emoji": "📈",
+   "title": "Inflation",
+   "blurb": "Why money buys less each year",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "📈",
+     "kicker": "Start here",
+     "title": "In Germany in 1923, at the worst point, prices doubled about every four days.",
+     "text": "Normal inflation is much quieter, and still matters."
+    },
+    {
+     "t": "fact",
+     "icon": "📈",
+     "kicker": "The idea",
+     "title": "What inflation is",
+     "text": "Inflation is a general rise in prices across the economy, which means each unit of money buys less. It is measured by tracking the cost of a representative basket of goods and services, such as bread, rent and petrol.",
+     "stat": "CPI",
+     "statLabel": "The consumer price index, the usual measure."
+    },
+    {
+     "t": "quiz",
+     "q": "Inflation runs at 2% a year. After 35 years, what would £100 buy in today’s terms?",
+     "opts": [
+      "About £50 worth",
+      "About £30 worth",
+      "About £70 worth"
+     ],
+     "a": 0,
+     "why": "Prices roughly double in 35 years at 2%, so £100 buys what about £50 buys today. Small numbers compound."
+    },
+    {
+     "t": "fact",
+     "icon": "📈",
+     "kicker": "The idea",
+     "title": "What causes it",
+     "text": "Demand-pull: too much spending chasing too few goods. Cost-push: a shock to costs, such as energy or supply chains. Expectations: if everyone expects prices to rise, they raise prices and wage demands themselves."
+    },
+    {
+     "t": "fact",
+     "icon": "📈",
+     "kicker": "Key number",
+     "title": "UK inflation in October 2022, a 41-year high.",
+     "text": "Energy prices and supply disruption after the pandemic and the invasion of Ukraine drove much of it.",
+     "stat": "11.1%",
+     "statLabel": ""
+    },
+    {
+     "t": "fact",
+     "icon": "📈",
+     "kicker": "The idea",
+     "title": "Interest rates are the brake",
+     "text": "Central banks raise interest rates to cool spending. Borrowing becomes dearer, so households and firms spend less. The Bank of England raised its rate from a record low of 0.1% to 5.25% by August 2023."
+    },
+    {
+     "t": "quiz",
+     "q": "Wages rise 3% while prices rise 5%. What happens to buying power?",
+     "opts": [
+      "It rises",
+      "It falls by about 2%",
+      "It stays the same"
+     ],
+     "a": 1,
+     "why": "Prices outran pay, so each pound of wages buys about 2% less. Economists call this a fall in real wages."
+    },
+    {
+     "t": "est",
+     "q": "At 7% inflation, about how many years until prices double?",
+     "min": 1,
+     "max": 40,
+     "unit": " years",
+     "answer": 10,
+     "why": "The rule of 72 again: 72 divided by 7 is about 10."
+    },
+    {
+     "t": "fact",
+     "icon": "✅",
+     "kicker": "Recap",
+     "title": "What you now know",
+     "text": "Inflation is a general rise in prices, measured with a basket of goods. Small yearly rates add up to big changes over decades. Demand, costs and expectations can all push prices up. Higher interest rates are the main tool for cooling it down."
+    }
+   ]
   }
 ];
