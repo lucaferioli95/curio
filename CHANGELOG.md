@@ -2,6 +2,9 @@
 
 All notable changes to Curio, newest first. The version number is also shown in the app.
 
+## 1.3.1 - 2026-10-30
+- Once the app is installed, the install button turns into "Uninstall app" and shows how to remove it (browsers do not let a web app remove itself, so it shows the steps).
+
 ## 1.3.0 - 2026-10-29
 - 7 new lessons, 31 in total: moving continents, the Black Death, Athenian democracy, our solar system, how batteries work, the web is not the internet, and why fees matter.
 - Fact-check pass on the 1.2.0 lessons against sources. Corrected: Great Pyramid build time and who built it, Pantheon dome date and width, CO2 level (about 430 ppm), warming since 1850 to 1900 (about 1.4°C in 2025), and a few smaller wording issues.
