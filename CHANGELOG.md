@@ -2,6 +2,11 @@
 
 All notable changes to Curio, newest first. The version number is also shown in the app.
 
+## 1.4.0 - 2026-10-30
+- Home screen reorganised: lessons you have started appear at the top under "Continue" with a progress bar, finished lessons move to a "Completed" section at the bottom, and new lessons stay in their topics in between.
+- Opening a lesson you left halfway takes you back to the card where you stopped.
+- 5 new lessons, 36 in total: the Apollo 11 landing, the ocean, the Industrial Revolution, your brain in numbers, and DNA and the genome. Figures checked against sources.
+
 ## 1.3.1 - 2026-10-30
 - Once the app is installed, the install button turns into "Uninstall app" and shows how to remove it (browsers do not let a web app remove itself, so it shows the steps).
 

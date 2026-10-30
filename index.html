@@ -54,6 +54,11 @@ h1, h2, h3 { font-family: var(--serif); margin: 0; font-weight: 700; letter-spac
 .deck span.bl { color: var(--ink2); font-size: 14px; }
 .deck .meta { margin-top: auto; display: flex; justify-content: space-between; color: var(--ink3); font-size: 13px; padding-top: 6px; }
 .deck .done { color: var(--ok); font-weight: 700; }
+.deck .cont { color: var(--c); font-weight: 700; }
+.deck .pbar { display: block; height: 4px; border-radius: 4px; background: var(--line); overflow: hidden; }
+.deck .pbar i { display: block; height: 100%; background: var(--c); }
+.completed .deck { min-height: 0; opacity: .72; }
+.completed .deck .bl { display: none; }
 .foot { margin-top: 28px; text-align: center; }
 .foot a { color: var(--ink3); }
 
@@ -151,13 +156,13 @@ h1, h2, h3 { font-family: var(--serif); margin: 0; font-weight: 700; letter-spac
 <script>
 (function () {
   'use strict';
-  var APP_VERSION = '1.3.1';
+  var APP_VERSION = '1.4.0';
   var $ = function (s) { return document.querySelector(s); };
   var DECKS = window.DECKS, AREAS = window.AREAS;
   var areaOf = {}; AREAS.forEach(function (a) { areaOf[a.id] = a; });
   var KEY = 'curio-v1';
-  var ST = { done: {}, streak: { last: '', n: 0 } };
-  try { var raw = JSON.parse(localStorage.getItem(KEY) || 'null'); if (raw && raw.done) ST = raw; } catch (e) { /* storage unavailable */ }
+  var ST = { done: {}, prog: {}, streak: { last: '', n: 0 } };
+  try { var raw = JSON.parse(localStorage.getItem(KEY) || 'null'); if (raw && raw.done) { ST = raw; if (!ST.prog) ST.prog = {}; } } catch (e) { /* storage unavailable */ }
   function save() { try { localStorage.setItem(KEY, JSON.stringify(ST)); } catch (e) { /* ignore */ } }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function pad(n) { return String(n).padStart(2, '0'); }
@@ -180,15 +185,25 @@ h1, h2, h3 { font-family: var(--serif); margin: 0; font-weight: 700; letter-spac
 
   /* ---------- home ---------- */
   function minsOf(d) { return Math.max(2, Math.round(d.cards.length * 0.7)); }
+  function deckHtml(d, extra) {
+    var done = ST.done[d.id], at = ST.prog[d.id] || 0, n = d.cards.length;
+    var meta = '<span>' + n + ' cards · about ' + minsOf(d) + ' min</span>' + (done ? '<span class="done">✓ ' + done.s + '/' + done.q + '</span>' : (at > 0 ? '<span class="cont">Card ' + (at + 1) + ' of ' + n + '</span>' : ''));
+    return '<button type="button" class="deck' + (done ? ' isdone' : '') + '" data-deck="' + d.id + '"><span class="em" aria-hidden="true">' + d.emoji + '</span><b>' + esc(d.title) + '</b><span class="bl">' + esc(d.blurb) +
+      '</span>' + (!done && at > 0 ? '<span class="pbar"><i style="width:' + Math.round((at + 1) / (n + 1) * 100) + '%"></i></span>' : '') + '<span class="meta">' + meta + '</span></button>';
+  }
+  function colorOf(d) { var a = AREAS.filter(function (x) { return x.id === d.area; })[0]; return a ? a.color : '#888'; }
   function renderHome() {
-    $('#areas').innerHTML = AREAS.map(function (a) {
-      var ds = DECKS.filter(function (d) { return d.area === a.id; });
-      return '<section class="area" style="--c:' + a.color + '"><h3>' + esc(a.name) + '</h3><div class="decks">' + ds.map(function (d) {
-        var done = ST.done[d.id];
-        return '<button type="button" class="deck" data-deck="' + d.id + '"><span class="em" aria-hidden="true">' + d.emoji + '</span><b>' + esc(d.title) + '</b><span class="bl">' + esc(d.blurb) +
-          '</span><span class="meta"><span>' + d.cards.length + ' cards · about ' + minsOf(d) + ' min</span>' + (done ? '<span class="done">✓ ' + done.s + '/' + done.q + '</span>' : '') + '</span></button>';
-      }).join('') + '</div></section>';
+    var ongoing = DECKS.filter(function (d) { return !ST.done[d.id] && (ST.prog[d.id] || 0) > 0; });
+    var out = '';
+    if (ongoing.length) out += '<section class="area" style="--c:var(--accent)"><h3>Continue</h3><div class="decks">' + ongoing.map(function (d) { return '<div style="display:contents;--c:' + colorOf(d) + '">' + deckHtml(d) + '</div>'; }).join('') + '</div></section>';
+    out += AREAS.map(function (a) {
+      var ds = DECKS.filter(function (d) { return d.area === a.id && !ST.done[d.id] && !((ST.prog[d.id] || 0) > 0); });
+      if (!ds.length) return '';
+      return '<section class="area" style="--c:' + a.color + '"><h3>' + esc(a.name) + '</h3><div class="decks">' + ds.map(deckHtml).join('') + '</div></section>';
     }).join('');
+    var fin = DECKS.filter(function (d) { return ST.done[d.id]; });
+    if (fin.length) out += '<section class="area completed" style="--c:var(--ink3)"><h3>Completed (' + fin.length + ')</h3><div class="decks">' + fin.map(function (d) { return '<div style="display:contents;--c:' + colorOf(d) + '">' + deckHtml(d) + '</div>'; }).join('') + '</div></section>';
+    $('#areas').innerHTML = out;
     renderStreak();
   }
 
@@ -260,6 +275,8 @@ h1, h2, h3 { font-family: var(--serif); margin: 0; font-weight: 700; letter-spac
     $('#feed').scrollTop = 0; $('#feed').focus({ preventScroll: true });
     try { history.pushState({ curio: 1 }, ''); } catch (e) { /* ignore */ }
     observe(); setProgress(0); initSims();
+    var at = deck.id !== 'mix' && !ST.done[deck.id] ? (ST.prog[deck.id] || 0) : 0;
+    if (at > 0 && at < n) { var rc = document.querySelector('#feed .card[data-i="' + at + '"]'); if (rc) { $('#feed').style.scrollBehavior = 'auto'; rc.scrollIntoView({ block: 'start' }); } }
   }
   function closeDeck(fromPop) {
     if ($('#player').hidden) return;
@@ -276,6 +293,7 @@ h1, h2, h3 { font-family: var(--serif); margin: 0; font-weight: 700; letter-spac
       es.forEach(function (e) {
         if (!e.isIntersecting) return;
         var i = +e.target.getAttribute('data-i'); seen = Math.max(seen, i); setProgress(i);
+        if (cur && cur.id !== 'mix' && i < cur.cards.length && i > (ST.prog[cur.id] || 0)) { ST.prog[cur.id] = i; save(); }
         if (e.target.getAttribute('data-end')) finish();
       });
     }, { root: $('#feed'), threshold: 0.6 });

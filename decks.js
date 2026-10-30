@@ -1984,5 +1984,350 @@ window.DECKS = [
      "why": "Fees are known in advance, while returns are not. S&P’s long-running SPIVA reports have repeatedly found that most actively managed funds fall behind their benchmark over 10 to 15 years. This is education, not advice."
     }
    ]
+  },
+  /* ---- added in 1.4.0 ---- */
+  {
+   "id": "apollo",
+   "area": "history",
+   "emoji": "🌕",
+   "title": "The Apollo 11 landing",
+   "blurb": "The night two people walked on the Moon.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🚀",
+     "kicker": "Launch",
+     "title": "A 111-metre rocket",
+     "text": "Apollo 11 left Earth on a Saturn V rocket, which stood about 111 metres tall. Three astronauts were aboard: Neil Armstrong, Buzz Aldrin and Michael Collins.",
+     "stat": "111 m",
+     "statLabel": "height of the Saturn V"
+    },
+    {
+     "t": "fact",
+     "icon": "🦅",
+     "kicker": "Touchdown",
+     "title": "The Eagle landed on 20 July 1969",
+     "text": "The lunar module Eagle touched down in the Sea of Tranquility at 4:17 pm US Eastern time. Armstrong stepped onto the surface at 10:56 pm that evening.",
+     "stat": "20 July 1969",
+     "statLabel": "Moon landing"
+    },
+    {
+     "t": "quiz",
+     "q": "Who stayed in orbit around the Moon while the other two landed?",
+     "opts": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Michael Collins",
+      "Nobody, all three landed"
+     ],
+     "a": 2,
+     "why": "Collins flew the command module alone and waited for the other two to return from the surface."
+    },
+    {
+     "t": "fact",
+     "icon": "⏱️",
+     "kicker": "Short stay",
+     "title": "Just over two hours outside",
+     "text": "Armstrong and Aldrin spent a little under 22 hours on the Moon, and their walk on the surface lasted more than two hours. They collected more than 20 kg of rock and soil to bring home.",
+     "stat": "21.5 h",
+     "statLabel": "on the lunar surface, in total"
+    },
+    {
+     "t": "est",
+     "q": "Apollo astronauts visited the Moon between 1968 and 1972. How many of them walked on its surface?",
+     "min": 0,
+     "max": 50,
+     "unit": " people",
+     "answer": 12,
+     "why": "Twelve of the 24 Apollo astronauts who travelled to the Moon walked on it. Nobody has been back to the surface since 1972."
+    },
+    {
+     "t": "quiz",
+     "q": "Why did only 12 of the 24 astronauts walk on the Moon?",
+     "opts": [
+      "Some refused",
+      "Each landing mission had two walkers, while others stayed in orbit or only flew around the Moon",
+      "The others were not trained",
+      "Funding ran out for the rest"
+     ],
+     "a": 1,
+     "why": "Some missions only orbited or circled the Moon, and on each landing mission one crew member stayed in orbit."
+    }
+   ]
+  },
+  {
+   "id": "ocean",
+   "area": "science",
+   "emoji": "🌊",
+   "title": "The ocean",
+   "blurb": "Most of our planet, and we have barely mapped it.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🌍",
+     "kicker": "Mostly water",
+     "title": "The ocean covers about 70% of Earth",
+     "text": "It is one connected body of water, split by names such as Pacific and Atlantic. The average depth is about 3,682 metres.",
+     "stat": "~70%",
+     "statLabel": "of Earth’s surface"
+    },
+    {
+     "t": "quiz",
+     "q": "Which of these is closest to the average depth of the ocean?",
+     "opts": [
+      "About 100 metres",
+      "About 800 metres",
+      "About 3.7 kilometres",
+      "About 11 kilometres"
+     ],
+     "a": 2,
+     "why": "The average is around 3.7 km. The very deepest trench goes down nearly 11 km, but most of the seafloor is a vast plain at several kilometres’ depth."
+    },
+    {
+     "t": "fact",
+     "icon": "🗺️",
+     "kicker": "Mapped less than you think",
+     "title": "We have better maps of other worlds",
+     "text": "As of June 2025, only 27.3% of the global seafloor had been mapped with modern high-resolution sonar. Mapping the rest means ships crossing remote ocean, line by line.",
+     "stat": "27.3%",
+     "statLabel": "of the seafloor mapped in detail"
+    },
+    {
+     "t": "est",
+     "q": "What percentage of the global seafloor has been mapped with modern high-resolution sonar?",
+     "min": 1,
+     "max": 100,
+     "unit": "%",
+     "answer": 27,
+     "why": "Just over a quarter. Satellites give a rough picture of the seafloor, but not the detail ships and sonar can provide."
+    },
+    {
+     "t": "fact",
+     "icon": "🔦",
+     "kicker": "Barely seen",
+     "title": "Explorers have seen less than 0.001% of the deep seafloor",
+     "text": "Very little of the deep ocean has been looked at directly. It is dark, cold and under immense pressure, so every visit is expensive.",
+     "stat": "<0.001%",
+     "statLabel": "of the deep seafloor seen directly"
+    },
+    {
+     "t": "quiz",
+     "q": "Why is the deep ocean so hard to explore?",
+     "opts": [
+      "It is too shallow",
+      "Darkness, cold and huge pressure make every visit costly and difficult",
+      "It is closed by law",
+      "Satellites already see everything"
+     ],
+     "a": 1,
+     "why": "Radio waves and light do not travel far in water, so ships use sound and robots, which is slow."
+    }
+   ]
+  },
+  {
+   "id": "industrial",
+   "area": "history",
+   "emoji": "🏭",
+   "title": "The Industrial Revolution",
+   "blurb": "How machines, coal and cities changed Britain first.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🧵",
+     "kicker": "Cloth first",
+     "title": "The spinning jenny, 1764",
+     "text": "James Hargreaves’s spinning jenny let one worker spin several threads at once. Cotton and wool were among the first products changed by machines in Lancashire.",
+     "stat": "1764",
+     "statLabel": "the spinning jenny"
+    },
+    {
+     "t": "fact",
+     "icon": "♨️",
+     "kicker": "Steam",
+     "title": "James Watt improved the steam engine",
+     "text": "After repairing a Newcomen engine in 1764, Watt redesigned it to burn far less coal, and received his first patent in 1769. Steam freed factories from relying on rivers and water wheels.",
+     "stat": "1769",
+     "statLabel": "Watt’s first patent"
+    },
+    {
+     "t": "quiz",
+     "q": "Why did steam engines matter so much?",
+     "opts": [
+      "They were beautiful",
+      "They gave factories power that did not depend on a river or the wind",
+      "They replaced all people",
+      "They made cotton cheaper to grow"
+     ],
+     "a": 1,
+     "why": "Factories could be built wherever coal could be delivered, and mines could be drained, which let them go deeper."
+    },
+    {
+     "t": "fact",
+     "icon": "🚂",
+     "kicker": "Railways",
+     "title": "The first inter-city railway, 1830",
+     "text": "George Stephenson built the line between Liverpool and Manchester, the first public railway between two major cities. Travel and trade of goods became much faster.",
+     "stat": "1830",
+     "statLabel": "Liverpool–Manchester line"
+    },
+    {
+     "t": "est",
+     "q": "In 1851, about what percentage of Britain’s population lived in towns?",
+     "min": 0,
+     "max": 100,
+     "unit": "%",
+     "answer": 50,
+     "why": "Over half, which made Britain the first big country with more people in towns than in the countryside."
+    },
+    {
+     "t": "fact",
+     "icon": "⚖️",
+     "kicker": "The cost",
+     "title": "Children worked in mills",
+     "text": "The 1833 Factory Act protected children under nine in textile mills and limited hours for older children. By 1850, Britain, with about 2% of the world’s people, produced roughly half the world’s manufactured goods.",
+     "stat": "~50%",
+     "statLabel": "of world manufactured goods, 1850"
+    }
+   ]
+  },
+  {
+   "id": "brain",
+   "area": "science",
+   "emoji": "🧠",
+   "title": "Your brain in numbers",
+   "blurb": "A small organ with a very big appetite.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🔢",
+     "kicker": "Cells",
+     "title": "About 86 billion neurons",
+     "text": "Neurons are the cells that send electrical and chemical signals. An adult brain has about 86 billion of them, linked to each other in a huge network.",
+     "stat": "86 billion",
+     "statLabel": "neurons in an adult brain"
+    },
+    {
+     "t": "fact",
+     "icon": "🍽️",
+     "kicker": "Hungry",
+     "title": "A small organ that uses a lot of energy",
+     "text": "The brain weighs about 1.3 kg, around 2% of your body weight, yet it uses roughly 20% of your body’s energy.",
+     "stat": "~20%",
+     "statLabel": "of your energy, at ~2% of your weight"
+    },
+    {
+     "t": "est",
+     "q": "About what share of the body’s energy does the brain use?",
+     "min": 1,
+     "max": 100,
+     "unit": "%",
+     "answer": 20,
+     "why": "Roughly one fifth. That is why thinking hard and sleeping badly both feel tiring."
+    },
+    {
+     "t": "quiz",
+     "q": "Do we only use 10% of our brains?",
+     "opts": [
+      "Yes, the rest is unused",
+      "No, brain scans show activity throughout the brain over a day",
+      "Only geniuses use more",
+      "Nobody knows"
+     ],
+     "a": 1,
+     "why": "This is a popular myth. Different areas do different jobs, and damage to almost any part causes some loss."
+    },
+    {
+     "t": "est",
+     "q": "How many neurons are in an adult brain, in billions?",
+     "min": 1,
+     "max": 10000,
+     "log": true,
+     "unit": " billion",
+     "answer": 86,
+     "why": "About 86 billion. The old textbook figure of 100 billion was a round estimate."
+    },
+    {
+     "t": "quiz",
+     "q": "What do neurons do?",
+     "opts": [
+      "Store fat",
+      "Send electrical and chemical signals through the brain and body",
+      "Digest food",
+      "Make bone"
+     ],
+     "a": 1,
+     "why": "A neuron receives signals, and passes them on to others along thin fibres."
+    }
+   ]
+  },
+  {
+   "id": "dna",
+   "area": "science",
+   "emoji": "🧬",
+   "title": "DNA and the genome",
+   "blurb": "The instruction manual inside every cell.",
+   "cards": [
+    {
+     "t": "fact",
+     "icon": "🔤",
+     "kicker": "Four letters",
+     "title": "A, T, C and G",
+     "text": "DNA is a long molecule written in four chemical letters: A, T, C and G. They pair up, A with T and C with G, which is why the molecule can be copied accurately.",
+     "stat": "4",
+     "statLabel": "letters in the DNA alphabet"
+    },
+    {
+     "t": "fact",
+     "icon": "🧩",
+     "kicker": "Size",
+     "title": "About 3 billion base pairs",
+     "text": "The human genome, the full set of DNA, is made up of roughly 3 billion base pairs. The Human Genome Project, an international effort, announced its completion in 2003.",
+     "stat": "3 billion",
+     "statLabel": "base pairs in the human genome"
+    },
+    {
+     "t": "quiz",
+     "q": "Which letter pairs with A in DNA?",
+     "opts": [
+      "C",
+      "G",
+      "T",
+      "A"
+     ],
+     "a": 2,
+     "why": "A pairs with T and C pairs with G. Each strand is a template for the other, which is how cells copy DNA."
+    },
+    {
+     "t": "est",
+     "q": "Roughly how many genes are in human DNA?",
+     "min": 1000,
+     "max": 1000000,
+     "log": true,
+     "unit": " genes",
+     "answer": 20500,
+     "why": "Around 20,000 to 20,500. This is surprisingly few, about the same order as many much simpler animals."
+    },
+    {
+     "t": "fact",
+     "icon": "🏷️",
+     "kicker": "Genes",
+     "title": "Only part of the genome",
+     "text": "Genes are the stretches of DNA with instructions for making proteins. Much of the rest helps control when and where genes are switched on.",
+     "stat": "~20,500",
+     "statLabel": "genes"
+    },
+    {
+     "t": "quiz",
+     "q": "What is a mutation?",
+     "opts": [
+      "Any change in the DNA sequence",
+      "Only a harmful disease",
+      "A new gene from outside",
+      "A type of protein"
+     ],
+     "a": 0,
+     "why": "Mutations are changes in the sequence. Most are harmless, some are harmful, and a few are useful, which is the raw material for evolution."
+    }
+   ]
   }
 ];
